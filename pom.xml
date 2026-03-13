@@ -210,6 +210,8 @@
             <exclude>rpm/rpm.pom.xml</exclude>
             <!-- readme -->
             <exclude>README.adoc</exclude>
+            <!-- integration tests -->
+            <exclude>src/test/integration/*</exclude>
           </excludes>
         </configuration>
         <executions>
